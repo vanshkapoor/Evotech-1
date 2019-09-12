@@ -1,0 +1,40 @@
+@media only screen and (max-width: 768px) {
+ 
+ .caro{
+	height: 100%;
+	width: 200%;
+
+ }
+ .item{
+	 background-size: cover;
+ }
+ .important{
+	background-color: white;
+	color: black;
+	padding: 5px 10px 5px 10px;
+	font-weight: bold;
+	font-size: 0.8em;
+	width: fit-content;
+ }
+ .spon-logo{
+margin-top: 20%;
+
+
+
+	 
+ }
+ .spon-logo1{
+
+}
+ 
+}
+
+.important{
+	background-color: white;
+	color: black;
+	padding: 7px 15px 7px 15px;
+	font-weight: bold;
+	font-size: 1.1em;
+	width: fit-content;
+	
+}

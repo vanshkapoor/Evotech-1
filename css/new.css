@@ -1,0 +1,17 @@
+@media only screen and (max-width: 768px) {
+   .quick-link{
+	   visibility: hidden;
+	   display: none;
+ 
+ }
+ 
+ .caro{
+	height: 100%;
+	width: 200%;
+
+ }
+ .item{
+	 background-size: cover;
+ }
+ 
+}
