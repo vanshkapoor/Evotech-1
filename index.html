@@ -6,7 +6,7 @@
 	<meta charset="utf-8">
 
 	<!-- Page Title Here -->
-	<title>EVOTECH 2.0 </title>
+	<title>EVOTECH 3.0 </title>
 
 	<!-- Page Description Here -->
 	<meta name="description"
@@ -130,11 +130,15 @@
 			text-decoration: none;
 			font-weight: bold;
 		}
+
+		body {
+			background-image: url("C:/Users/hp/Evotech-1/image1.jpeg");
+		}
 	</style>
 
 </head>
 
-<body id="menu" class="alt-bg">
+<body id="menu" class="alt-bg" style="background-image: url(C:/Users/hp/Evotech-1/image1.jpeg)">
 	<!--[if lt IE 8]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -192,7 +196,7 @@
 	<!-- BEGIN OF site cover -->
 	<div class="page-cover" id="s-cover">
 		<!-- Cover Background -->
-		<div class="cover-bg pos-abs full-size bg-img" data-image-src="img/bg-default.jpg"></div>
+		<div class="cover-bg pos-abs full-size bg-img" data-image-src="C:/Users/hp/Evotech-1/image1.jpeg"></div>
 
 		<!-- Solid color as filter -->
 		<div class="cover-bg-mask pos-abs full-size bg-color" data-bgcolor="rgba(0, 0, 0, 0.60)"></div>
@@ -215,12 +219,12 @@
 				<!-- Logo instead -->
 				<div class="elem-center logo">
 					<a href="#">
-						<img src="img/logomain.png">
+						<img src="C:\Users\hp\Evotech-1\evotechlogo.png">
 					</a>
 				</div>
 				<div class="elem-bottom">
 					<div class="deco"></div>
-					<p id="timerfor" style="font-weight: bold; font-size: 1em;"></p>
+					<p id="demo" style="font-weight: bold; font-size: 1em;"></p>
 				</div>
 			</div>
 		</div>
@@ -240,7 +244,7 @@
 					</div>
 					<div class="h-right">
 						<h4>Build Better</h4>
-						<h4 class="subhead"><a href="#register"> OCT 31<sup>th</sup> 2019</a></h4><br>
+						<h4 class="subhead"><a href="#register"> OCT 18<sup>th</sup> 2019</a></h4><br>
 						<h4>Students Project Exhibition and Competition</h4>
 						<a class="typeform-share button" href="https://evotechbvcoe.typeform.com/to/wKGakl"
 							data-mode="popup"
@@ -428,12 +432,12 @@
 					<header class="p-title">
 						<h4 class="subhead">Teams which successfully complete Stage I will be invited to exhibit there
 							project at
-							BVCOE on October 31th 2019.</h4>
+							BVCOE on October 14th 2019.</h4>
 					</header>
 				</div>
 				<div>
-					<h5 class="important"> # Last Date For Registration is 29th October </h5>
-					<h5 class="important"> # Confirmation mails by 30th October </h5>
+					<h5 class="important"> # Last Date For Registration is 4th October </h5>
+					<h5 class="important"> # Confirmation mails by 10th October </h5>
 
 				</div>
 			</section>
@@ -468,15 +472,17 @@
 				<header class="p-title">
 					<h3>Our Partners</h3>
 					<div style="padding-top: 5%;">
-						<!-- <div class="row">
+						<div class="row">
 							<div class="col-xs-4 col-lg-6">
-								<img src="Images/CNLOGO.png">
+								<img src="C:\Users\hp\Evotech-1\WhatsApp Image 2019-09-16 at 5.15.13 PM (1).jpeg"
+									height="150px;" width="200px;">
 							</div>
 							<div class="col-xs-6">
-								<img src="img/incubateind.png">
+								<img src="C:\Users\hp\Evotech-1\WhatsApp Image 2019-09-16 at 5.15.13 PM.jpeg"
+									height="150px;" width="150px;">
 							</div>
 
-						</div> -->
+						</div>
 
 						<!-- <div class="row">
 							<div class="col-xs-3 col-lg-3">
@@ -542,7 +548,7 @@
 								<ul>
 									<li>
 										<h4>Email</h4>
-										<p><a href="mailto:contact.evotech@gmail.com">contact.evotech@gmail.com</a></p>
+										<p><a href="mailto:contact.evotech@gmail.com">evotechbvcoe@gmail.com</a></p>
 									</li>
 									<li>
 										<h4>Address</h4>
@@ -551,7 +557,7 @@
 									</li>
 									<li>
 										<h4>Phone</h4>
-										<p> Ankit : +91-8447525570</p>
+										<p> Bhavya : +91-7042205162</p>
 										<p>Muskaan : +91-7056777014</p>
 									</li>
 								</ul>
@@ -675,12 +681,12 @@
 
 	<script>
 		// Set the date we're counting down to
-		var countDownDate = new Date("Oct 31, 2018 12:00:00").getTime();
+		var countDownDate = new Date("Oct 18, 2019 12:00:00").getTime();
 
 		// Update the count down every 1 second
 		var x = setInterval(function () {
 
-			// Get todays date and time
+			// Get today's date and time
 			var now = new Date().getTime();
 
 			// Find the distance between now and the count down date
@@ -693,16 +699,17 @@
 			var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
 			// Output the result in an element with id="demo"
-			document.getElementById("timerfor").innerHTML = days + "D " + hours + "H " +
-				minutes + "M " + seconds + "S";
+			document.getElementById("demo").innerHTML = days + "d " + hours + "h " +
+				minutes + "m " + seconds + "s ";
 
 			// If the count down is over, write some text 
 			if (distance < 0) {
 				clearInterval(x);
-				document.getElementById("timerfor").innerHTML = "EXPIRED";
+				document.getElementById("demo").innerHTML = "EXPIRED";
 			}
 		}, 1000);
 	</script>
+
 	<script src="./js/vendor/jquery-1.11.2.min.js"></script>
 	<!-- All vendor scripts -->
 	<script src="./js/vendor/all.js"></script>
